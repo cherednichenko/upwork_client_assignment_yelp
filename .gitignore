@@ -1,0 +1,5 @@
+*.git
+*.png
+*.html
+/logs/*
+/public/*
