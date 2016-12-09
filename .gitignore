@@ -3,3 +3,14 @@
 *.html
 /logs/*
 /public/*
+*screenshot_*
+*.log
+*.logs
+*.lock
+**/*.log*
+/*.log*
+Amber_India.png
+Amber_India.html
+logs/cucumber_tests.html
+logs/cucumber_tests.log
+*.idea
