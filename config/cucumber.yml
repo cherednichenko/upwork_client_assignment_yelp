@@ -1,0 +1,2 @@
+default: cucumber features -f progress -o logs/cucumber_tests.log -f html -o logs/cucumber_tests.html --format pretty
+report:  -f progress -o logs/cucumber_tests.log -f html -o logs/cucumber_tests.html --format pretty
