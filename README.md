@@ -22,6 +22,7 @@ It will run all features. Or use like (because currently there is only one featu
 For headless testing, you need to change the default_driver to "poltergeist" instead of "selenium" from features/support/env.rb
 
 > #Capybara.default_driver = :selenium
+
 > Capybara.javascript_driver = :poltergeist
 
 Note: But pay attention that you may need to change '.click()' to '.trigger(click)' for poltergeist mode.
@@ -65,7 +66,7 @@ rake tests:iterations[name,times]  # Tests by iterations
 And the run for <2 iterations> will look like:
 > rake tests:iterations['Restaurants.feature',2]
 
-The samll example of output here is:
+The small example of output here is:
 
 ```
 Executing feature: Restaurants.feature 2 times
@@ -108,4 +109,6 @@ Feature: Restaurants
 It could be watched by this screencast prepared - http://take.ms/aVCK7
 The result of run could be seen by opening 'cucumber_tests.html' and it should look like http://take.ms/IJMm5 . If any tests are failed - you'll see appropriate output there in red, like - http://take.ms/HckU8 .
 
-The final run of 2 iterations tests is -  .
+The final run of 2 iterations tests is -  http://take.ms/fvXUj.
+
+#Enjoy.
